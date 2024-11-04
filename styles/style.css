@@ -1,0 +1,29 @@
+main {
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+}
+.inputTask {
+    height: 25px;
+    width: 300px;
+    border: 2px solid aquamarine;
+}
+#button {
+    height: 35px;
+    width: 90px;
+    border-radius: 8%;
+    background-color: rgb(176, 255, 228);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+.completed {
+    text-decoration: line-through;
+}
